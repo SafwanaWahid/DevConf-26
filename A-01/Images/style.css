@@ -1,0 +1,90 @@
+*{
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    gap: 400px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.navmid{
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    cursor: pointer;
+}
+.btnreg{
+    padding: 15px 40px;
+    white-space: nowrap;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(29 78 216);
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0.5px solid rgb(29 78 216);;
+}
+.btnreg:hover{
+    background-color: white;
+    color: rgb(29 78 216);
+    border: 0.5px solid rgb(29 78 216);;
+}
+li{
+    color: rgb(87 87 87);
+}
+.nav section img{
+    cursor: pointer;
+}
+.bannerimg{
+    width: 1905px;
+    height: auto;
+    background-color: rgba(255, 0, 0, 0.425);
+}
+.banner{
+    min-height: 810px;
+    background-image:     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Others/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bannerh1{
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+.bnrtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+    flex-direction: column;
+}
+.bnrtext article{
+    color: rgba(255, 255, 255, 0.733);
+    padding: 10px 500px;
+    text-align: center;
+    font-size: 20px;
+}
+.btnreg2{
+    margin-top: 350px;
+    padding: 25px 60px;
+    white-space: nowrap;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(29 78 216);
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0.5px solid rgb(29 78 216);;
+}
+.btnreg2:hover{
+    background-color: white;
+    color: rgb(29 78 216);
+    border: 0.5px solid rgb(29 78 216);;
+}
