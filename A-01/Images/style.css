@@ -295,3 +295,130 @@ nav section li{
     background-color: rgb(13 27 42);
     color: rgb(255, 255, 255);
 }
+.sh1{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 80px;
+}
+.stflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.stbtn{
+    margin-top: 200px;
+    background-color:  rgba(214, 239, 255, 0.363);
+    border-radius: 50px;
+    padding: 10px;
+    width: 250px;
+    margin-left: 42%;
+}
+.startup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+}
+.stcards{
+    display: flex;
+    gap: 40px;
+    text-align: left;
+    width: 1300px;
+    border: 0.5px ;
+}
+.stcards div h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.t1{
+    color: rgb(103, 58, 146);
+    background-color: rgba(104, 58, 146, 0.164);
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    width: 100px;
+}
+.st1{
+    border: 0.5px solid rgb(228, 228, 228);
+    padding: 30px;
+    border-radius: 20px;
+}
+.stcards div p{
+    margin-top: 10px;
+}
+.stcards div article{
+    margin-top: 10px;
+}
+.lm{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.lm p:hover{
+    color: rgb(14, 45, 129);
+}
+.lm p{
+    color: rgb(29 78 216);
+    font-weight: 700;
+    cursor: pointer;
+}
+.st1:hover{
+    box-shadow: 0px 0px 10px 2px rgba(128, 128, 128, 0.253);
+}
+.stm{
+    margin-left: 280px;
+    margin-top: 70px;
+}
+.t2{
+    color: rgb(63, 192, 91);
+    background-color: rgba(63, 192, 91, 0.185);
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    width: 160px;
+}
+.t3{
+    color: rgb(255, 100, 39);
+    background-color: rgba(255, 100, 39, 0.185);
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    width: 100px;
+}
+.t4{
+    color: rgb(103, 58, 146);
+    background-color: rgba(104, 58, 146, 0.164);
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 500;
+    width: 160px;
+}
+.btnex{
+    margin-top: 90px;
+    padding: 25px 60px;
+    white-space: nowrap;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(29 78 216);
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0.5px solid rgb(29 78 216);
+}
+.btnex:hover{
+    background-color: white;
+    color: rgb(29 78 216);
+}
+.cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.cc1{
+    color: rgb(87 87 87);
+}
