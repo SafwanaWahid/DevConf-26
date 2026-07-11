@@ -569,3 +569,64 @@ nav section li{
     margin-top: 15px;
     text-align: center;
 }
+footer{
+    background-color: rgb(13, 27, 42);
+    padding: 50px;
+    padding-left: 100px;
+}
+.foot{
+    display: flex;
+    gap: 800px;
+}
+.iconf{
+    display: flex;
+    gap: 30px;
+}
+.fol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fol h3{
+    margin-top: 70px;
+}
+.foot div{
+    flex: 1;
+}
+.iconf img{
+    border-radius: 20px;
+    border: 0.5px solid gray;
+    padding: 15px;
+    cursor: pointer;
+}
+.foot div p{
+    font-size: 17px;
+    color: rgb(165, 165, 165);
+}
+.foot div h3{
+    color: white;
+    font-size: 25px;
+}
+.hrf{
+    height: 1.5px;
+    border: none;
+    background-color: rgba(228, 228, 228, 0.103);
+}
+.cr div p{
+    color: rgba(228, 228, 228, 0.39);
+}
+.cr{
+    margin-top: 30px;
+    display: flex;
+    gap: 1000px;
+    padding: 0px 50px;
+}
+.cr div li{
+    list-style: none;
+}
+.lif{
+    display: flex;
+    gap: 40px;
+    color: rgba(228, 228, 228, 0.39);
+    cursor: pointer;
+}
